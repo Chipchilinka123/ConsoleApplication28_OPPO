@@ -1,0 +1,62 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="17234160124281312902">
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;iostream&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;iostream&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\PC\source\repos\ConsoleApplication28_OPPO\ConsoleApplication28_OPPO\ConsoleApplication28_OPPO.cpp" line="1" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;fstream&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;fstream&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\PC\source\repos\ConsoleApplication28_OPPO\ConsoleApplication28_OPPO\ConsoleApplication28_OPPO.cpp" line="2" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;string&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;string&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\PC\source\repos\ConsoleApplication28_OPPO\ConsoleApplication28_OPPO\ConsoleApplication28_OPPO.cpp" line="3" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;vector&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;vector&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\PC\source\repos\ConsoleApplication28_OPPO\ConsoleApplication28_OPPO\ConsoleApplication28_OPPO.cpp" line="4" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;iostream&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;iostream&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\PC\source\repos\ConsoleApplication28_OPPO\ConsoleApplication28_OPPO\Date.h" line="2" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;fstream&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;fstream&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\PC\source\repos\ConsoleApplication28_OPPO\ConsoleApplication28_OPPO\FoodInfo.h" line="3" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;string&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;string&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\PC\source\repos\ConsoleApplication28_OPPO\ConsoleApplication28_OPPO\FoodInfo.h" line="4" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;vector&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;vector&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\PC\source\repos\ConsoleApplication28_OPPO\ConsoleApplication28_OPPO\reader.h" line="2" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;fstream&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;fstream&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\PC\source\repos\ConsoleApplication28_OPPO\ConsoleApplication28_OPPO\reader.h" line="3" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;cstdlib&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;cstdlib&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\PC\source\repos\ConsoleApplication28_OPPO\ConsoleApplication28_OPPO\ConsoleApplication28_OPPO.cpp" line="7" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;tchar.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;tchar.h&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\PC\source\repos\ConsoleApplication28_OPPO\ConsoleApplication28_OPPO\ConsoleApplication28_OPPO.cpp" line="8" column="0"/>
+        </error>
+        <error id="constVariablePointer" severity="style" msg="Variable &apos;x&apos; can be declared as pointer to const" verbose="Variable &apos;x&apos; can be declared as pointer to const" cwe="398" file0="C:/Users/PC/source/repos/ConsoleApplication28_OPPO/ConsoleApplication28_OPPO/ConsoleApplication28_OPPO.cpp">
+            <location file="C:\Users\PC\source\repos\ConsoleApplication28_OPPO\ConsoleApplication28_OPPO\ConsoleApplication28_OPPO.cpp" line="30" column="10" info="Variable &apos;x&apos; can be declared as pointer to const"/>
+            <symbol>x</symbol>
+        </error>
+        <error id="unusedAllocatedMemory" severity="style" msg="Variable &apos;x&apos; is allocated memory that is never used." verbose="Variable &apos;x&apos; is allocated memory that is never used." cwe="563" file0="C:/Users/PC/source/repos/ConsoleApplication28_OPPO/ConsoleApplication28_OPPO/ConsoleApplication28_OPPO.cpp">
+            <location file="C:\Users\PC\source\repos\ConsoleApplication28_OPPO\ConsoleApplication28_OPPO\ConsoleApplication28_OPPO.cpp" line="30" column="10"/>
+            <symbol>x</symbol>
+        </error>
+  <FileInfo check="Class">
+<class name="AtExit" file="C:/Users/PC/source/repos/ConsoleApplication28_OPPO/ConsoleApplication28_OPPO/ConsoleApplication28_OPPO.cpp" line="17" col="1" hash="5546072581373840941"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="main" lineNumber="23"/>
+    <functioncall functionName="Date"/>
+    <functioncall functionName="FoodInfo"/>
+    <functioncall functionName="_CrtDumpMemoryLeaks"/>
+    <functioncall functionName="_CrtMemCheckpoint"/>
+    <functioncall functionName="cout"/>
+    <functioncall functionName="displayFoodInfo"/>
+    <functioncall functionName="exit"/>
+    <functioncall functionName="inputFile"/>
+    <functioncall functionName="is_open"/>
+    <functioncall functionName="readFoodInfo"/>
+    <functioncall functionName="setlocale"/>
+    <functioncall functionName="what"/>
+  </FileInfo>
+</analyzerinfo>

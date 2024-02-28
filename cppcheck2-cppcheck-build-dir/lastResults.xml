@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.13.0"/>
+    <errors>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;iostream&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;iostream&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="dd.MM.yyyy">
+            <location file="ConsoleApplication28_OPPO\ConsoleApplication28_OPPO.cpp" line="1"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;fstream&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;fstream&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="dd.MM.yyyy">
+            <location file="ConsoleApplication28_OPPO\ConsoleApplication28_OPPO.cpp" line="2"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;string&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;string&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="dd.MM.yyyy">
+            <location file="ConsoleApplication28_OPPO\ConsoleApplication28_OPPO.cpp" line="3"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;vector&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;vector&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="dd.MM.yyyy">
+            <location file="ConsoleApplication28_OPPO\ConsoleApplication28_OPPO.cpp" line="4"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;cstdlib&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;cstdlib&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="dd.MM.yyyy">
+            <location file="ConsoleApplication28_OPPO\ConsoleApplication28_OPPO.cpp" line="7"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;tchar.h&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;tchar.h&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="dd.MM.yyyy">
+            <location file="ConsoleApplication28_OPPO\ConsoleApplication28_OPPO.cpp" line="8"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;crtdbg.h&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;crtdbg.h&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="dd.MM.yyyy">
+            <location file="ConsoleApplication28_OPPO\ConsoleApplication28_OPPO.cpp" line="12"/>
+        </error>
+        <error id="constVariablePointer" severity="style" msg="Variable &amp;#039;x&amp;#039; can be declared as pointer to const" verbose="Variable &amp;#039;x&amp;#039; can be declared as pointer to const" cwe="398" file0="ConsoleApplication28_OPPO/ConsoleApplication28_OPPO.cpp" sinceDate="dd.MM.yyyy">
+            <location file="ConsoleApplication28_OPPO\ConsoleApplication28_OPPO.cpp" line="30"/>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &amp;#039;x&amp;#039; is assigned a value that is never used." verbose="Variable &amp;#039;x&amp;#039; is assigned a value that is never used." cwe="563" file0="ConsoleApplication28_OPPO/ConsoleApplication28_OPPO.cpp" sinceDate="dd.MM.yyyy">
+            <location file="ConsoleApplication28_OPPO\ConsoleApplication28_OPPO.cpp" line="30"/>
+        </error>
+        <error id="unusedAllocatedMemory" severity="style" msg="Variable &amp;#039;x&amp;#039; is allocated memory that is never used." verbose="Variable &amp;#039;x&amp;#039; is allocated memory that is never used." cwe="563" file0="ConsoleApplication28_OPPO/ConsoleApplication28_OPPO.cpp" sinceDate="dd.MM.yyyy">
+            <location file="ConsoleApplication28_OPPO\ConsoleApplication28_OPPO.cpp" line="30"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;iostream&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;iostream&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="dd.MM.yyyy">
+            <location file="ConsoleApplication28_OPPO\Date.h" line="2"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;fstream&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;fstream&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="dd.MM.yyyy">
+            <location file="ConsoleApplication28_OPPO\FoodInfo.h" line="3"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;string&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;string&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="dd.MM.yyyy">
+            <location file="ConsoleApplication28_OPPO\FoodInfo.h" line="4"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;vector&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;vector&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="dd.MM.yyyy">
+            <location file="ConsoleApplication28_OPPO\reader.h" line="2"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;fstream&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;fstream&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="dd.MM.yyyy">
+            <location file="ConsoleApplication28_OPPO\reader.h" line="3"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;iostream&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;iostream&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="dd.MM.yyyy">
+            <location file="ConsoleApplication28_OPPO\Date.cpp" line="3"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;iostream&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;iostream&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="dd.MM.yyyy">
+            <location file="ConsoleApplication28_OPPO\FoodInfo.cpp" line="4"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;iostream&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;iostream&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="dd.MM.yyyy">
+            <location file="ConsoleApplication28_OPPO\reader.cpp" line="3"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Include file: &amp;quot;CppUnitTest.h&amp;quot; not found." verbose="Include file: &amp;quot;CppUnitTest.h&amp;quot; not found." sinceDate="dd.MM.yyyy">
+            <location file="UnitTest1\UnitTest1.cpp" line="2"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;string&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;string&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="dd.MM.yyyy">
+            <location file="UnitTest1\UnitTest1.cpp" line="3"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &amp;lt;vector&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &amp;lt;vector&amp;gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." sinceDate="dd.MM.yyyy">
+            <location file="UnitTest1\UnitTest1.cpp" line="4"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="UnitTest1/UnitTest1.cpp" sinceDate="dd.MM.yyyy">
+            <location file="UnitTest1\UnitTest1.cpp" line="48"/>
+        </error>
+    </errors>
+</results>

@@ -1,0 +1,5 @@
+printFoodInfo call:[print]
+readFoodInfoFromFile call:[create_from_stream,isValid,runtime_error] noreturn:[runtime_error]
+isValidFoodName call:[isdigit,length]
+isValidFoodValue call:[isdigit,length,to_string]
+isValid call:[isValid,isValidFoodName,isValidFoodValue] noreturn:[isValidFoodValue]

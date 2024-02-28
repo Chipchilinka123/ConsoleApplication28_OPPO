@@ -1,0 +1,2 @@
+AtExit call:[_CrtDumpMemoryLeaks] noreturn:[_CrtDumpMemoryLeaks]
+main call:[_CrtMemCheckpoint,displayFoodInfo,exit,inputFile,is_open,readFoodInfo,setlocale,what] noreturn:[exit,readFoodInfo]

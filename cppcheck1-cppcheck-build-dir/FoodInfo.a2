@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="14568391306139535306">
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;iostream&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;iostream&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\PC\source\repos\ConsoleApplication28_OPPO\ConsoleApplication28_OPPO\Date.h" line="2" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;fstream&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;fstream&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\PC\source\repos\ConsoleApplication28_OPPO\ConsoleApplication28_OPPO\FoodInfo.h" line="3" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;string&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;string&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\PC\source\repos\ConsoleApplication28_OPPO\ConsoleApplication28_OPPO\FoodInfo.h" line="4" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;iostream&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;iostream&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\PC\source\repos\ConsoleApplication28_OPPO\ConsoleApplication28_OPPO\FoodInfo.cpp" line="4" column="0"/>
+        </error>
+        <error id="passedByValue" severity="performance" msg="Function parameter &apos;name&apos; should be passed by const reference." verbose="Parameter &apos;name&apos; is passed by value. It could be passed as a const reference which is usually faster and recommended in C++." cwe="398" file0="C:/Users/PC/source/repos/ConsoleApplication28_OPPO/ConsoleApplication28_OPPO/FoodInfo.cpp">
+            <location file="C:\Users\PC\source\repos\ConsoleApplication28_OPPO\ConsoleApplication28_OPPO\FoodInfo.cpp" line="32" column="45" info="Function parameter &apos;name&apos; should be passed by const reference."/>
+            <symbol>name</symbol>
+        </error>
+  <FileInfo check="Class">
+<class name="FoodInfo" file="C:/Users/PC/source/repos/ConsoleApplication28_OPPO/ConsoleApplication28_OPPO/FoodInfo.h" line="9" col="1" hash="5625532756078073248"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="C:/Users/PC/source/repos/ConsoleApplication28_OPPO/ConsoleApplication28_OPPO/FoodInfo.h:22:10" my-argnr="1" my-argname="out" file="C:/Users/PC/source/repos/ConsoleApplication28_OPPO/ConsoleApplication28_OPPO/FoodInfo.cpp" line="10" col="5" value="0"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="printFoodInfo" lineNumber="9"/>
+    <functiondecl functionName="readFoodInfoFromFile" lineNumber="17"/>
+    <functiondecl functionName="isValidFoodName" lineNumber="32"/>
+    <functiondecl functionName="isValidFoodValue" lineNumber="52"/>
+    <functiondecl functionName="isValid" lineNumber="72"/>
+    <functioncall functionName="Date"/>
+    <functioncall functionName="create_from_stream"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="isValid"/>
+    <functioncall functionName="isValidFoodName"/>
+    <functioncall functionName="isValidFoodValue"/>
+    <functioncall functionName="isdigit"/>
+    <functioncall functionName="length"/>
+    <functioncall functionName="print"/>
+    <functioncall functionName="runtime_error"/>
+    <functioncall functionName="to_string"/>
+    <functioncall functionName="true"/>
+  </FileInfo>
+</analyzerinfo>

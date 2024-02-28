@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="4104367006499499361">
+        <error id="missingInclude" severity="information" msg="Include file: &quot;CppUnitTest.h&quot; not found." verbose="Include file: &quot;CppUnitTest.h&quot; not found.">
+            <location file="C:\Users\PC\source\repos\ConsoleApplication28_OPPO\UnitTest1\UnitTest1.cpp" line="2" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;string&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;string&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\PC\source\repos\ConsoleApplication28_OPPO\UnitTest1\UnitTest1.cpp" line="3" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;vector&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;vector&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\PC\source\repos\ConsoleApplication28_OPPO\UnitTest1\UnitTest1.cpp" line="4" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;iostream&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;iostream&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\PC\source\repos\ConsoleApplication28_OPPO\ConsoleApplication28_OPPO\Date.h" line="2" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;fstream&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;fstream&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\PC\source\repos\ConsoleApplication28_OPPO\ConsoleApplication28_OPPO\FoodInfo.h" line="3" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;string&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;string&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\PC\source\repos\ConsoleApplication28_OPPO\ConsoleApplication28_OPPO\FoodInfo.h" line="4" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;vector&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;vector&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\PC\source\repos\ConsoleApplication28_OPPO\ConsoleApplication28_OPPO\reader.h" line="2" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;fstream&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;fstream&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\PC\source\repos\ConsoleApplication28_OPPO\ConsoleApplication28_OPPO\reader.h" line="3" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;iostream&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;iostream&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\PC\source\repos\ConsoleApplication28_OPPO\ConsoleApplication28_OPPO\Date.cpp" line="3" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;iostream&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;iostream&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\PC\source\repos\ConsoleApplication28_OPPO\ConsoleApplication28_OPPO\FoodInfo.cpp" line="4" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;iostream&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;iostream&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\PC\source\repos\ConsoleApplication28_OPPO\ConsoleApplication28_OPPO\reader.cpp" line="3" column="0"/>
+        </error>
+        <error id="syntaxError" severity="error" msg="syntax error" verbose="syntax error" file0="C:/Users/PC/source/repos/ConsoleApplication28_OPPO/UnitTest1/UnitTest1.cpp">
+            <location file="C:\Users\PC\source\repos\ConsoleApplication28_OPPO\UnitTest1\UnitTest1.cpp" line="48" column="3"/>
+        </error>
+</analyzerinfo>

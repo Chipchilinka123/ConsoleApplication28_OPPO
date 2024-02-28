@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<analyzerinfo hash="6453181840702577070">
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;iostream&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;iostream&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\PC\source\repos\ConsoleApplication28_OPPO\ConsoleApplication28_OPPO\Date.h" line="2" column="0"/>
+        </error>
+        <error id="missingIncludeSystem" severity="information" msg="Include file: &lt;iostream&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results." verbose="Include file: &lt;iostream&gt; not found. Please note: Cppcheck does not need standard library headers to get proper results.">
+            <location file="C:\Users\PC\source\repos\ConsoleApplication28_OPPO\ConsoleApplication28_OPPO\Date.cpp" line="3" column="0"/>
+        </error>
+  <FileInfo check="Class">
+<class name="Date" file="C:/Users/PC/source/repos/ConsoleApplication28_OPPO/ConsoleApplication28_OPPO/Date.h" line="5" col="1" hash="8433871714655123345"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="C:/Users/PC/source/repos/ConsoleApplication28_OPPO/ConsoleApplication28_OPPO/Date.h:16:10" my-argnr="1" my-argname="out" file="C:/Users/PC/source/repos/ConsoleApplication28_OPPO/ConsoleApplication28_OPPO/Date.cpp" line="27" col="5" value="0"/>
+    <unsafe-usage my-id="C:/Users/PC/source/repos/ConsoleApplication28_OPPO/ConsoleApplication28_OPPO/Date.h:17:17" my-argnr="1" my-argname="stream" file="C:/Users/PC/source/repos/ConsoleApplication28_OPPO/ConsoleApplication28_OPPO/Date.cpp" line="35" col="11" value="0"/>
+    <unsafe-usage my-id="C:/Users/PC/source/repos/ConsoleApplication28_OPPO/ConsoleApplication28_OPPO/Date.h:18:17" my-argnr="1" my-argname="date" file="C:/Users/PC/source/repos/ConsoleApplication28_OPPO/ConsoleApplication28_OPPO/Date.cpp" line="48" col="9" value="0"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="isValid" lineNumber="20"/>
+    <functiondecl functionName="print" lineNumber="26"/>
+    <functiondecl functionName="create_from_stream" lineNumber="31"/>
+    <functiondecl functionName="isDateValid" lineNumber="45"/>
+    <functioncall functionName="Date"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="isDateValid"/>
+    <functioncall functionName="runtime_error"/>
+    <functioncall functionName="true"/>
+  </FileInfo>
+</analyzerinfo>
